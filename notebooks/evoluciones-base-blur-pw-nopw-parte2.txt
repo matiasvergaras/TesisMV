@@ -1,0 +1,336 @@
+Patterns set encontrado en ../patterns\blur
+Labels set encontrado en ../labels\blur
+Nombre del experimento: 256L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\256L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\256L_testval
+Usando top_labels previamente generados para 256 labels
+Usando device: NVIDIA GeForce GTX 1060
+Valid Trial [0/10], LR: 0.0028, W: 5.1106e-06, Avg Loss: 1.2080, Accuracy: 0.5038, F1 score: 0.0509, HS: 0.0385
+Valid Trial [1/10], LR: 0.0089, W: 4.0103e-06, Avg Loss: 1.1878, Accuracy: 0.5095, F1 score: 0.0591, HS: 0.0304
+Valid Trial [2/10], LR: 0.0003, W: 1.08461e-05, Avg Loss: 1.1581, Accuracy: 0.5388, F1 score: 0.0586, HS: 0.0306
+Valid Trial [3/10], LR: 0.0005, W: 1.45018e-05, Avg Loss: 1.1957, Accuracy: 0.5042, F1 score: 0.0552, HS: 0.0284
+Valid Trial [4/10], LR: 0.0043, W: 3.05401e-05, Avg Loss: 1.2107, Accuracy: 0.4964, F1 score: 0.0444, HS: 0.0225
+Valid Trial [5/10], LR: 0.0082, W: 1.60771e-05, Avg Loss: 1.2359, Accuracy: 0.4833, F1 score: 0.0625, HS: 0.0323
+Valid Trial [6/10], LR: 0.0002, W: 1.31147e-05, Avg Loss: 1.2251, Accuracy: 0.4907, F1 score: 0.0516, HS: 0.0265
+Valid Trial [7/10], LR: 0.005, W: 8.65e-07, Avg Loss: 1.2176, Accuracy: 0.4865, F1 score: 0.0431, HS: 0.0220
+Valid Trial [8/10], LR: 0.0004, W: 2.0883e-05, Avg Loss: 1.2002, Accuracy: 0.5006, F1 score: 0.0536, HS: 0.0276
+Valid Trial [9/10], LR: 0.0035, W: 2.93441e-05, Avg Loss: 1.2158, Accuracy: 0.4940, F1 score: 0.0510, HS: 0.0263
+Train Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.2949, Accuracy: 0.9170, F1 score: 0.1159, HS: 0.1123
+Valid Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.1930, Accuracy: 0.9715, F1 score: 0.0192, HS: 0.0102
+
+Train Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1085, Accuracy: 0.9726, F1 score: 0.1628, HS: 0.0947
+Valid Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1641, Accuracy: 0.9708, F1 score: 0.1466, HS: 0.0865
+
+Train Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1031, Accuracy: 0.9731, F1 score: 0.1851, HS: 0.1070
+Valid Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1613, Accuracy: 0.9719, F1 score: 0.1258, HS: 0.0706
+
+Train Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1039, Accuracy: 0.9734, F1 score: 0.1882, HS: 0.1079
+Valid Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1683, Accuracy: 0.9704, F1 score: 0.2451, HS: 0.1641
+
+Train Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.1059, Accuracy: 0.9738, F1 score: 0.2163, HS: 0.1270
+Valid Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.1623, Accuracy: 0.9728, F1 score: 0.1485, HS: 0.0823
+
+Train Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1022, Accuracy: 0.9747, F1 score: 0.2285, HS: 0.1312
+Valid Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1691, Accuracy: 0.9735, F1 score: 0.2334, HS: 0.1372
+
+Train Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.1031, Accuracy: 0.9752, F1 score: 0.2373, HS: 0.1352
+Valid Trial [6/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1679, Accuracy: 0.9740, F1 score: 0.2047, HS: 0.1144
+
+Train Trial [7/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1028, Accuracy: 0.9742, F1 score: 0.2387, HS: 0.1424
+Valid Trial [7/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1577, Accuracy: 0.9731, F1 score: 0.1422, HS: 0.0816
+
+Train Trial [8/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1015, Accuracy: 0.9746, F1 score: 0.2113, HS: 0.1194
+Valid Trial [8/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1592, Accuracy: 0.9728, F1 score: 0.2471, HS: 0.1556
+
+Train Trial [9/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1010, Accuracy: 0.9750, F1 score: 0.2372, HS: 0.1357
+Valid Trial [9/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1650, Accuracy: 0.9737, F1 score: 0.2348, HS: 0.1372
+
+Train Trial [10/200], LR: 0.00075, W: 0.01, Avg Loss: 0.0999, Accuracy: 0.9752, F1 score: 0.2424, HS: 0.1395
+Valid Trial [10/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1552, Accuracy: 0.9741, F1 score: 0.2382, HS: 0.1396
+
+Train Trial [11/200], LR: 0.00075, W: 0.01, Avg Loss: 0.0989, Accuracy: 0.9754, F1 score: 0.2507, HS: 0.1434
+Valid Trial [11/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1627, Accuracy: 0.9741, F1 score: 0.2222, HS: 0.1287
+
+Train Trial [12/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1045, Accuracy: 0.9754, F1 score: 0.2405, HS: 0.1356
+Valid Trial [12/200], LR: 0.0005625000000000001, W: 0.01, Avg Loss: 0.1575, Accuracy: 0.9741, F1 score: 0.2408, HS: 0.1373
+
+Train Trial [13/200], LR: 0.0005625, W: 0.01, Avg Loss: 0.1009, Accuracy: 0.9753, F1 score: 0.2527, HS: 0.1450
+Valid Trial [13/200], LR: 0.0005625000000000001, W: 0.01, Avg Loss: 0.1597, Accuracy: 0.9741, F1 score: 0.2152, HS: 0.1222
+
+Out of patience!
+Best epoch: 3
+Test Trial [1/1], LR: 0.0001, W: 0.001, Avg Loss: 0.8370, Accuracy: 0.9753, F1 score: 0.2122, HS: 0.1195
+Predicciones guardadas en ../outputs\alexnet\blur\evo\256L_testval\predictions.csv
+(234, 184)
+(234, 184)
+HS final, NUM_LABELS: 0.12004137837471172, 184
+{'BATCH_SIZE': 124, 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'criterion': 'BCEWithLogitsLoss', 'epochs': 200, 'best_epoch': 3, 'data_flags': 'blur', 'use_pos_weights': False, 'pos_weights_factor': 1, 'NUM_LABELS': 184, 'use_testval': True, 'TH_TRAIN': 0.5, 'TH_VAL': 0.5, 'TH_TEST': 0.5, 'HS_FINAL': 0.12004137837471172, 'patience': 10}
+========================================
+========================================
+========================================
+========================================
+Patterns set encontrado en ../patterns\blur
+Labels set encontrado en ../labels\blur
+Nombre del experimento: 266L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\266L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\266L_testval
+Usando top_labels previamente generados para 266 labels
+Usando device: NVIDIA GeForce GTX 1060
+Valid Trial [0/10], LR: 0.0007, W: 3.769e-07, Avg Loss: 1.2017, Accuracy: 0.5036, F1 score: 0.0572, HS: 0.0291
+Valid Trial [1/10], LR: 0.0003, W: 1.84539e-05, Avg Loss: 1.1845, Accuracy: 0.5118, F1 score: 0.0603, HS: 0.0309
+Valid Trial [2/10], LR: 0.0059, W: 3.4211e-06, Avg Loss: 1.2000, Accuracy: 0.5065, F1 score: 0.0535, HS: 0.0272
+Valid Trial [3/10], LR: 0.0001, W: 6.365e-07, Avg Loss: 1.1968, Accuracy: 0.5075, F1 score: 0.0606, HS: 0.0314
+Valid Trial [4/10], LR: 0.0003, W: 4.1525e-06, Avg Loss: 1.1841, Accuracy: 0.5096, F1 score: 0.0522, HS: 0.0269
+Valid Trial [5/10], LR: 0.0003, W: 1.4218e-06, Avg Loss: 1.1877, Accuracy: 0.5162, F1 score: 0.0534, HS: 0.0277
+Valid Trial [6/10], LR: 0.0015, W: 5.9733e-06, Avg Loss: 1.1495, Accuracy: 0.5362, F1 score: 0.0636, HS: 0.0329
+Valid Trial [7/10], LR: 0.0002, W: 4.156e-06, Avg Loss: 1.2451, Accuracy: 0.4730, F1 score: 0.0449, HS: 0.0233
+Valid Trial [8/10], LR: 0.0003, W: 9.088e-07, Avg Loss: 1.2124, Accuracy: 0.4953, F1 score: 0.0553, HS: 0.0284
+Valid Trial [9/10], LR: 0.0002, W: 7.8505e-06, Avg Loss: 1.1754, Accuracy: 0.5232, F1 score: 0.0542, HS: 0.0280
+Train Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.2575, Accuracy: 0.9168, F1 score: 0.0960, HS: 0.0950
+Valid Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.2126, Accuracy: 0.9705, F1 score: 0.1350, HS: 0.0793
+
+Train Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1116, Accuracy: 0.9731, F1 score: 0.1992, HS: 0.1174
+Valid Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1620, Accuracy: 0.9709, F1 score: 0.2455, HS: 0.1620
+
+Train Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1032, Accuracy: 0.9732, F1 score: 0.2099, HS: 0.1246
+Valid Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1633, Accuracy: 0.9700, F1 score: 0.2425, HS: 0.1651
+
+Train Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1031, Accuracy: 0.9731, F1 score: 0.2050, HS: 0.1219
+Valid Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1715, Accuracy: 0.9722, F1 score: 0.0785, HS: 0.0381
+
+Train Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.1037, Accuracy: 0.9736, F1 score: 0.1976, HS: 0.1149
+Valid Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.1616, Accuracy: 0.9728, F1 score: 0.2101, HS: 0.1259
+
+Train Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1026, Accuracy: 0.9739, F1 score: 0.2198, HS: 0.1277
+Valid Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1607, Accuracy: 0.9741, F1 score: 0.2119, HS: 0.1172
+
+Train Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.1015, Accuracy: 0.9750, F1 score: 0.2265, HS: 0.1281
+Valid Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.2327, Accuracy: 0.9736, F1 score: 0.2465, HS: 0.1485
+
+Train Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.1098, Accuracy: 0.9742, F1 score: 0.2131, HS: 0.1222
+Valid Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.1621, Accuracy: 0.9719, F1 score: 0.2467, HS: 0.1566
+
+Train Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.1005, Accuracy: 0.9749, F1 score: 0.2322, HS: 0.1317
+Valid Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.1583, Accuracy: 0.9741, F1 score: 0.2189, HS: 0.1225
+
+Train Trial [9/200], LR: 0.001, W: 0.01, Avg Loss: 0.0994, Accuracy: 0.9753, F1 score: 0.2384, HS: 0.1348
+Valid Trial [9/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1623, Accuracy: 0.9741, F1 score: 0.2152, HS: 0.1209
+
+Train Trial [10/200], LR: 0.00075, W: 0.01, Avg Loss: 0.0991, Accuracy: 0.9752, F1 score: 0.2460, HS: 0.1415
+Valid Trial [10/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1560, Accuracy: 0.9743, F1 score: 0.2454, HS: 0.1463
+
+Train Trial [11/200], LR: 0.00075, W: 0.01, Avg Loss: 0.0990, Accuracy: 0.9752, F1 score: 0.2432, HS: 0.1386
+Valid Trial [11/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1528, Accuracy: 0.9743, F1 score: 0.2296, HS: 0.1311
+
+Train Trial [12/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1002, Accuracy: 0.9748, F1 score: 0.2349, HS: 0.1348
+Valid Trial [12/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1554, Accuracy: 0.9739, F1 score: 0.1974, HS: 0.1088
+
+Out of patience!
+Best epoch: 2
+Test Trial [1/1], LR: 0.0001, W: 0.001, Avg Loss: 0.8158, Accuracy: 0.9752, F1 score: 0.1982, HS: 0.1109
+Predicciones guardadas en ../outputs\alexnet\blur\evo\266L_testval\predictions.csv
+(234, 184)
+(234, 184)
+HS final, NUM_LABELS: 0.11049213132546465, 184
+{'BATCH_SIZE': 124, 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'criterion': 'BCEWithLogitsLoss', 'epochs': 200, 'best_epoch': 2, 'data_flags': 'blur', 'use_pos_weights': False, 'pos_weights_factor': 1, 'NUM_LABELS': 184, 'use_testval': True, 'TH_TRAIN': 0.5, 'TH_VAL': 0.5, 'TH_TEST': 0.5, 'HS_FINAL': 0.11049213132546465, 'patience': 10}
+========================================
+========================================
+========================================
+========================================
+Patterns set encontrado en ../patterns\blur
+Labels set encontrado en ../labels\blur
+Nombre del experimento: 276L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\276L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\276L_testval
+Usando top_labels previamente generados para 276 labels
+Usando device: NVIDIA GeForce GTX 1060
+Valid Trial [0/10], LR: 0.0001, W: 2.30001e-05, Avg Loss: 1.1967, Accuracy: 0.5042, F1 score: 0.0557, HS: 0.0283
+Valid Trial [1/10], LR: 0.0008, W: 1.13534e-05, Avg Loss: 1.2137, Accuracy: 0.4919, F1 score: 0.0554, HS: 0.0286
+Valid Trial [2/10], LR: 0.005, W: 3.0221e-06, Avg Loss: 1.1864, Accuracy: 0.5203, F1 score: 0.0616, HS: 0.0323
+Valid Trial [3/10], LR: 0.0027, W: 5.72e-07, Avg Loss: 1.1963, Accuracy: 0.5098, F1 score: 0.0479, HS: 0.0243
+Valid Trial [4/10], LR: 0.0002, W: 9.4599e-06, Avg Loss: 1.1983, Accuracy: 0.5098, F1 score: 0.0563, HS: 0.0292
+Valid Trial [5/10], LR: 0.003, W: 2.5377e-06, Avg Loss: 1.1961, Accuracy: 0.5079, F1 score: 0.0629, HS: 0.0322
+Valid Trial [6/10], LR: 0.0005, W: 7.92e-06, Avg Loss: 1.2306, Accuracy: 0.4797, F1 score: 0.0587, HS: 0.0302
+Valid Trial [7/10], LR: 0.0089, W: 1.0151e-06, Avg Loss: 1.2075, Accuracy: 0.4978, F1 score: 0.0556, HS: 0.0287
+Valid Trial [8/10], LR: 0.0047, W: 1.77505e-05, Avg Loss: 1.2129, Accuracy: 0.4941, F1 score: 0.0544, HS: 0.0280
+Valid Trial [9/10], LR: 0.0048, W: 5.948e-07, Avg Loss: 1.2332, Accuracy: 0.4790, F1 score: 0.0505, HS: 0.0260
+Train Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.2427, Accuracy: 0.9190, F1 score: 0.1018, HS: 0.1099
+Valid Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.1603, Accuracy: 0.9738, F1 score: 0.2295, HS: 0.1295
+
+Train Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1011, Accuracy: 0.9752, F1 score: 0.2440, HS: 0.1399
+Valid Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1552, Accuracy: 0.9738, F1 score: 0.2199, HS: 0.1243
+
+Train Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1028, Accuracy: 0.9751, F1 score: 0.2354, HS: 0.1342
+Valid Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1804, Accuracy: 0.9712, F1 score: 0.2505, HS: 0.1677
+
+Train Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1049, Accuracy: 0.9741, F1 score: 0.2294, HS: 0.1348
+Valid Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1565, Accuracy: 0.9743, F1 score: 0.2392, HS: 0.1378
+
+Train Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.0988, Accuracy: 0.9754, F1 score: 0.2398, HS: 0.1353
+Valid Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.1598, Accuracy: 0.9731, F1 score: 0.2490, HS: 0.1543
+
+Train Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1068, Accuracy: 0.9741, F1 score: 0.2151, HS: 0.1253
+Valid Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1653, Accuracy: 0.9732, F1 score: 0.1575, HS: 0.0878
+
+Train Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.1026, Accuracy: 0.9744, F1 score: 0.2388, HS: 0.1390
+Valid Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.1587, Accuracy: 0.9740, F1 score: 0.2434, HS: 0.1418
+
+Train Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.0999, Accuracy: 0.9752, F1 score: 0.2337, HS: 0.1320
+Valid Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.1588, Accuracy: 0.9742, F1 score: 0.2355, HS: 0.1340
+
+Train Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.0987, Accuracy: 0.9754, F1 score: 0.2428, HS: 0.1379
+Valid Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.1567, Accuracy: 0.9740, F1 score: 0.2465, HS: 0.1467
+
+Train Trial [9/200], LR: 0.001, W: 0.01, Avg Loss: 0.1045, Accuracy: 0.9753, F1 score: 0.2466, HS: 0.1410
+Valid Trial [9/200], LR: 0.001, W: 0.01, Avg Loss: 0.1798, Accuracy: 0.9741, F1 score: 0.2255, HS: 0.1267
+
+Train Trial [10/200], LR: 0.001, W: 0.01, Avg Loss: 0.1043, Accuracy: 0.9753, F1 score: 0.2418, HS: 0.1378
+Valid Trial [10/200], LR: 0.001, W: 0.01, Avg Loss: 0.1553, Accuracy: 0.9742, F1 score: 0.2387, HS: 0.1355
+
+Train Trial [11/200], LR: 0.001, W: 0.01, Avg Loss: 0.1000, Accuracy: 0.9753, F1 score: 0.2404, HS: 0.1360
+Valid Trial [11/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1544, Accuracy: 0.9740, F1 score: 0.2403, HS: 0.1376
+
+Train Trial [12/200], LR: 0.00075, W: 0.01, Avg Loss: 0.0998, Accuracy: 0.9753, F1 score: 0.2401, HS: 0.1362
+Valid Trial [12/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1583, Accuracy: 0.9730, F1 score: 0.2451, HS: 0.1488
+
+Out of patience!
+Best epoch: 2
+Test Trial [1/1], LR: 0.0001, W: 0.001, Avg Loss: 0.8393, Accuracy: 0.9744, F1 score: 0.2596, HS: 0.1633
+Predicciones guardadas en ../outputs\alexnet\blur\evo\276L_testval\predictions.csv
+(234, 184)
+(234, 184)
+HS final, NUM_LABELS: 0.16402455569122235, 184
+{'BATCH_SIZE': 124, 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'criterion': 'BCEWithLogitsLoss', 'epochs': 200, 'best_epoch': 2, 'data_flags': 'blur', 'use_pos_weights': False, 'pos_weights_factor': 1, 'NUM_LABELS': 184, 'use_testval': True, 'TH_TRAIN': 0.5, 'TH_VAL': 0.5, 'TH_TEST': 0.5, 'HS_FINAL': 0.16402455569122235, 'patience': 10}
+========================================
+========================================
+========================================
+========================================
+Patterns set encontrado en ../patterns\blur
+Labels set encontrado en ../labels\blur
+Nombre del experimento: 286L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\286L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\286L_testval
+Usando top_labels previamente generados para 286 labels
+Usando device: NVIDIA GeForce GTX 1060
+Valid Trial [0/10], LR: 0.0008, W: 6.2166e-06, Avg Loss: 1.1924, Accuracy: 0.5146, F1 score: 0.0411, HS: 0.0331
+Valid Trial [1/10], LR: 0.0004, W: 1.2879e-06, Avg Loss: 1.2130, Accuracy: 0.4933, F1 score: 0.0380, HS: 0.0253
+Valid Trial [2/10], LR: 0.0009, W: 1.2951e-06, Avg Loss: 1.2075, Accuracy: 0.5015, F1 score: 0.0367, HS: 0.0307
+Valid Trial [3/10], LR: 0.0006, W: 7.5e-07, Avg Loss: 1.1983, Accuracy: 0.5035, F1 score: 0.0424, HS: 0.0340
+Valid Trial [4/10], LR: 0.0026, W: 4.291e-07, Avg Loss: 1.1985, Accuracy: 0.5052, F1 score: 0.0366, HS: 0.0309
+Valid Trial [5/10], LR: 0.0014, W: 2.37293e-05, Avg Loss: 1.1988, Accuracy: 0.5014, F1 score: 0.0382, HS: 0.0317
+Valid Trial [6/10], LR: 0.0013, W: 5.609e-06, Avg Loss: 1.2059, Accuracy: 0.4999, F1 score: 0.0408, HS: 0.0330
+Valid Trial [7/10], LR: 0.0015, W: 4.9538e-06, Avg Loss: 1.2078, Accuracy: 0.4917, F1 score: 0.0340, HS: 0.0175
+Valid Trial [8/10], LR: 0.0031, W: 5.053e-07, Avg Loss: 1.2422, Accuracy: 0.4767, F1 score: 0.0365, HS: 0.0310
+Valid Trial [9/10], LR: 0.0002, W: 3.498e-07, Avg Loss: 1.2264, Accuracy: 0.4861, F1 score: 0.0366, HS: 0.0185
+Train Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.2343, Accuracy: 0.9233, F1 score: 0.0695, HS: 0.0878
+Valid Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.1283, Accuracy: 0.9813, F1 score: 0.2648, HS: 0.1790
+
+Train Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.0773, Accuracy: 0.9819, F1 score: 0.1842, HS: 0.1058
+Valid Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1168, Accuracy: 0.9804, F1 score: 0.2425, HS: 0.1616
+
+Train Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.0728, Accuracy: 0.9821, F1 score: 0.1973, HS: 0.1129
+Valid Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1096, Accuracy: 0.9828, F1 score: 0.2343, HS: 0.1359
+
+Train Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.0713, Accuracy: 0.9830, F1 score: 0.2315, HS: 0.1332
+Valid Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1411, Accuracy: 0.9818, F1 score: 0.2420, HS: 0.1511
+
+Train Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.0820, Accuracy: 0.9820, F1 score: 0.1888, HS: 0.1095
+Valid Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.1141, Accuracy: 0.9803, F1 score: 0.2413, HS: 0.1632
+
+Train Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.0747, Accuracy: 0.9821, F1 score: 0.2140, HS: 0.1263
+Valid Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1096, Accuracy: 0.9825, F1 score: 0.2280, HS: 0.1352
+
+Train Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.0724, Accuracy: 0.9830, F1 score: 0.2220, HS: 0.1251
+Valid Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.1116, Accuracy: 0.9817, F1 score: 0.2444, HS: 0.1535
+
+Train Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.0720, Accuracy: 0.9828, F1 score: 0.2274, HS: 0.1304
+Valid Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.1074, Accuracy: 0.9827, F1 score: 0.2245, HS: 0.1294
+
+Train Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.0722, Accuracy: 0.9830, F1 score: 0.2287, HS: 0.1302
+Valid Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.1120, Accuracy: 0.9815, F1 score: 0.2421, HS: 0.1535
+
+Train Trial [9/200], LR: 0.001, W: 0.01, Avg Loss: 0.0740, Accuracy: 0.9827, F1 score: 0.2159, HS: 0.1225
+Valid Trial [9/200], LR: 0.001, W: 0.01, Avg Loss: 0.1079, Accuracy: 0.9822, F1 score: 0.2403, HS: 0.1459
+
+Train Trial [10/200], LR: 0.001, W: 0.01, Avg Loss: 0.0721, Accuracy: 0.9830, F1 score: 0.2346, HS: 0.1347
+Valid Trial [10/200], LR: 0.001, W: 0.01, Avg Loss: 0.1095, Accuracy: 0.9823, F1 score: 0.2358, HS: 0.1412
+
+Out of patience!
+Best epoch: 0
+Test Trial [1/1], LR: 0.0001, W: 0.001, Avg Loss: 0.5742, Accuracy: 0.9831, F1 score: 0.2410, HS: 0.1460
+Predicciones guardadas en ../outputs\alexnet\blur\evo\286L_testval\predictions.csv
+(234, 282)
+(234, 282)
+HS final, NUM_LABELS: 0.14619624202957537, 282
+{'BATCH_SIZE': 124, 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'criterion': 'BCEWithLogitsLoss', 'epochs': 200, 'best_epoch': 0, 'data_flags': 'blur', 'use_pos_weights': False, 'pos_weights_factor': 1, 'NUM_LABELS': 282, 'use_testval': True, 'TH_TRAIN': 0.5, 'TH_VAL': 0.5, 'TH_TEST': 0.5, 'HS_FINAL': 0.14619624202957537, 'patience': 10}
+========================================
+========================================
+========================================
+========================================
+Patterns set encontrado en ../patterns\blur
+Labels set encontrado en ../labels\blur
+Nombre del experimento: 296L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\296L_testval
+Los resultados se guardar�n en: ../outputs\alexnet\blur\evo\296L_testval
+Usando top_labels previamente generados para 296 labels
+Usando device: NVIDIA GeForce GTX 1060
+Valid Trial [0/10], LR: 0.0049, W: 9.897e-07, Avg Loss: 1.1727, Accuracy: 0.5289, F1 score: 0.0348, HS: 0.0302
+Valid Trial [1/10], LR: 0.0002, W: 2.9948e-06, Avg Loss: 1.1936, Accuracy: 0.5083, F1 score: 0.0394, HS: 0.0320
+Valid Trial [2/10], LR: 0.0021, W: 4.5075e-06, Avg Loss: 1.1748, Accuracy: 0.5223, F1 score: 0.0421, HS: 0.0214
+Valid Trial [3/10], LR: 0.0007, W: 2.41926e-05, Avg Loss: 1.1969, Accuracy: 0.5066, F1 score: 0.0452, HS: 0.0356
+Valid Trial [4/10], LR: 0.0071, W: 2.6524e-06, Avg Loss: 1.1990, Accuracy: 0.5015, F1 score: 0.0398, HS: 0.0203
+Valid Trial [5/10], LR: 0.0055, W: 2.85686e-05, Avg Loss: 1.2093, Accuracy: 0.4953, F1 score: 0.0401, HS: 0.0324
+Valid Trial [6/10], LR: 0.0003, W: 2.66707e-05, Avg Loss: 1.2062, Accuracy: 0.4955, F1 score: 0.0388, HS: 0.0323
+Valid Trial [7/10], LR: 0.01, W: 7.2003e-06, Avg Loss: 1.2147, Accuracy: 0.4970, F1 score: 0.0381, HS: 0.0314
+Valid Trial [8/10], LR: 0.0003, W: 2.1246e-06, Avg Loss: 1.2232, Accuracy: 0.4864, F1 score: 0.0358, HS: 0.0181
+Valid Trial [9/10], LR: 0.007, W: 9.3932e-06, Avg Loss: 1.2201, Accuracy: 0.4891, F1 score: 0.0340, HS: 0.0296
+Train Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.2258, Accuracy: 0.9265, F1 score: 0.0643, HS: 0.0702
+Valid Trial [0/200], LR: 0.001, W: 0.01, Avg Loss: 0.1210, Accuracy: 0.9804, F1 score: 0.2421, HS: 0.1740
+
+Train Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.0763, Accuracy: 0.9814, F1 score: 0.1605, HS: 0.0920
+Valid Trial [1/200], LR: 0.001, W: 0.01, Avg Loss: 0.1118, Accuracy: 0.9810, F1 score: 0.2344, HS: 0.1499
+
+Train Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.0735, Accuracy: 0.9814, F1 score: 0.1788, HS: 0.1044
+Valid Trial [2/200], LR: 0.001, W: 0.01, Avg Loss: 0.1126, Accuracy: 0.9804, F1 score: 0.2425, HS: 0.1635
+
+Train Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.0740, Accuracy: 0.9812, F1 score: 0.1478, HS: 0.0844
+Valid Trial [3/200], LR: 0.001, W: 0.01, Avg Loss: 0.1146, Accuracy: 0.9806, F1 score: 0.1443, HS: 0.0868
+
+Train Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.0746, Accuracy: 0.9813, F1 score: 0.1787, HS: 0.1051
+Valid Trial [4/200], LR: 0.001, W: 0.01, Avg Loss: 0.1141, Accuracy: 0.9811, F1 score: 0.0326, HS: 0.0152
+
+Train Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.0749, Accuracy: 0.9812, F1 score: 0.1264, HS: 0.0702
+Valid Trial [5/200], LR: 0.001, W: 0.01, Avg Loss: 0.1133, Accuracy: 0.9806, F1 score: 0.1443, HS: 0.0884
+
+Train Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.0753, Accuracy: 0.9813, F1 score: 0.1116, HS: 0.0621
+Valid Trial [6/200], LR: 0.001, W: 0.01, Avg Loss: 0.1124, Accuracy: 0.9806, F1 score: 0.1443, HS: 0.0865
+
+Train Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.0749, Accuracy: 0.9813, F1 score: 0.1490, HS: 0.0844
+Valid Trial [7/200], LR: 0.001, W: 0.01, Avg Loss: 0.1130, Accuracy: 0.9800, F1 score: 0.2392, HS: 0.1627
+
+Train Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.0746, Accuracy: 0.9812, F1 score: 0.1507, HS: 0.0869
+Valid Trial [8/200], LR: 0.001, W: 0.01, Avg Loss: 0.1128, Accuracy: 0.9800, F1 score: 0.2392, HS: 0.1616
+
+Train Trial [9/200], LR: 0.001, W: 0.01, Avg Loss: 0.0743, Accuracy: 0.9812, F1 score: 0.1835, HS: 0.1088
+Valid Trial [9/200], LR: 0.001, W: 0.01, Avg Loss: 0.1141, Accuracy: 0.9800, F1 score: 0.2392, HS: 0.1616
+
+Train Trial [10/200], LR: 0.001, W: 0.01, Avg Loss: 0.0739, Accuracy: 0.9812, F1 score: 0.1568, HS: 0.0917
+Valid Trial [10/200], LR: 0.00075, W: 0.01, Avg Loss: 0.1136, Accuracy: 0.9806, F1 score: 0.1443, HS: 0.0852
+
+Out of patience!
+Best epoch: 0
+Test Trial [1/1], LR: 0.0001, W: 0.001, Avg Loss: 0.5918, Accuracy: 0.9818, F1 score: 0.1650, HS: 0.1007
+Predicciones guardadas en ../outputs\alexnet\blur\evo\296L_testval\predictions.csv
+(234, 282)
+(234, 282)
+HS final, NUM_LABELS: 0.10053757970424636, 282
+{'BATCH_SIZE': 124, 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'criterion': 'BCEWithLogitsLoss', 'epochs': 200, 'best_epoch': 0, 'data_flags': 'blur', 'use_pos_weights': False, 'pos_weights_factor': 1, 'NUM_LABELS': 282, 'use_testval': True, 'TH_TRAIN': 0.5, 'TH_VAL': 0.5, 'TH_TEST': 0.5, 'HS_FINAL': 0.10053757970424636, 'patience': 10}
+========================================
+========================================
+========================================
+========================================
+
+****************************************
+****************************************
+****************************************
+****************************************
