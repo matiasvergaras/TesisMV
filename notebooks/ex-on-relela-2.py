@@ -36,6 +36,7 @@ from torch.utils.data import DataLoader
 import numpy as np, scipy.io
 import argparse
 import json
+import warnings
 
 
 # ## Mounting Google Drive
@@ -57,18 +58,25 @@ except:
 
 
 #modify only this cell
-USE_RN50 = True
+USE_RN50 = False
 SUBCHAPTERS = False
 
 FLAGS = [
-    ['ref', 'rot', 'rain', 'elastic'],
-    ['ref', 'rot', 'rain', 'elastic', 'blur'],
-    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
-    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug'],
-
+    ['ref'],
+    ['rot'],
+    ['rain'],
+    ['elastic'],
+    ['blur'],
+    ['gausblur'],
+    ['mtnblur'],
+    ['crop'],
+    ['randaug'],
+    ['ref', 'rot'],
+    ['ref', 'rot', 'rain'],
 ]
 
 for DS_FLAGS in FLAGS:
+    warnings.warn(f"Iniciando DS_FLAGS {DS_FLAGS}")
               # 'ref': [invertX, invertY],
               # 'rot': [rotate90, rotate180, rotate270],
               # 'crop': [crop] * CROP_TIMES,
@@ -80,6 +88,7 @@ for DS_FLAGS in FLAGS:
     CROP_TIMES = 1
     RANDOM_TIMES = 1
     ELASTIC_TIMES = 1
+    GAUSBLUR_TIMES = 1
     SAVE_EACH = -1 # -1 to save only the best model
     TRAINING_EPOCHS = 80
     K = 4
@@ -94,11 +103,12 @@ for DS_FLAGS in FLAGS:
     MAP_TIMES = {'crop': CROP_TIMES,
              'randaug': RANDOM_TIMES,
              'elastic': ELASTIC_TIMES,
+             'gausblur': GAUSBLUR_TIMES,
     }
 
     DS_FLAGS = sorted(DS_FLAGS)
     data_flags = '_'.join(DS_FLAGS) if len(DS_FLAGS) > 0 else 'base'
-    MULTIPLE_TRANSF = ['crop', 'randaug', 'elastic']
+    MULTIPLE_TRANSF = ['crop', 'randaug', 'elastic', 'gausblur']
     COPY_FLAGS = DS_FLAGS.copy()
 
     for t in MULTIPLE_TRANSF:

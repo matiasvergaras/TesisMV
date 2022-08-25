@@ -47,6 +47,13 @@ except:
 # In[3]:
 
 FLAGS = [
+    ['blur'],
+    ['gausblur'],
+    ['mtnblur'],
+    ['crop'],
+    ['randaug'],
+    ['ref', 'rot'],
+    ['ref', 'rot', 'rain'],
     ['ref', 'rot', 'rain', 'elastic'],
     ['ref', 'rot', 'rain', 'elastic', 'blur'],
     ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
@@ -67,10 +74,10 @@ for DS_FLAGS in FLAGS:
               # 'randaug': [randaug],
               # 'rain': [rain],
               # 'elastic': [elastic]
-    CROP_TIMES = 2
+    CROP_TIMES = 1
     RANDOM_TIMES = 1
     ELASTIC_TIMES = 1
-    GAUSBLUR_TIMES = 2
+    GAUSBLUR_TIMES = 1
     MAP_TIMES = {'crop': CROP_TIMES,
              'randaug': RANDOM_TIMES,
              'elastic': ELASTIC_TIMES,
