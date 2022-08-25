@@ -2,4 +2,5 @@
 models/
 features/
 patterns/
-
+!patterns/originals
+!labels/holdout
