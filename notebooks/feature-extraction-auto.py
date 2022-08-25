@@ -58,25 +58,26 @@ except:
 
 
 #modify only this cell
-USE_RN50 = False
+USE_RN50 = True
 SUBCHAPTERS = False
 
 FLAGS = [
-    ['ref'],
-    ['rot'],
-    ['rain'],
-    ['elastic'],
-    ['blur'],
-    ['gausblur'],
-    ['mtnblur'],
-    ['crop'],
-    ['randaug'],
+    ['base'],
+    #['ref'],
+    #['rot'],
+    #['rain'],
+    #['elastic'],
+    #['blur'],
+    #['gausblur'],
+    #['mtnblur'],
+    #['crop'],
+    #['randaug'],
     ['ref', 'rot'],
     ['ref', 'rot', 'rain'],
-    ['ref', 'rot', 'rain', 'elastic'],
-    ['ref', 'rot', 'rain', 'elastic', 'blur'],
-    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
-    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug']
+    #['ref', 'rot', 'rain', 'elastic'],
+    #['ref', 'rot', 'rain', 'elastic', 'blur'],
+    #['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
+    #['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug']
 ]
 
 for DS_FLAGS in FLAGS:

@@ -1,0 +1,144 @@
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/mavergar/anaconda3/envs/tesis_env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Fold  0
+--Pattern set encontrado en ../patterns/base/0
+--Labels set encontrado en ../labels/base/0
+--Modelo encontrado en ../models/resnet/base/resnet50_K0.pth
+--Features a guardar en ../features/resnet/base/resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns/base/1
+--Labels set encontrado en ../labels/base/1
+--Modelo encontrado en ../models/resnet/base/resnet50_K0.pth
+--Features a guardar en ../features/resnet/base/resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns/base/2
+--Labels set encontrado en ../labels/base/2
+--Modelo encontrado en ../models/resnet/base/resnet50_K0.pth
+--Features a guardar en ../features/resnet/base/resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns/base/3
+--Labels set encontrado en ../labels/base/3
+--Modelo encontrado en ../models/resnet/base/resnet50_K0.pth
+--Features a guardar en ../features/resnet/base/resnet50_K3
+Files:504
+Files:78
+Files:194
+Files:504
+Files:78
+Files:194
+Files:504
+Files:78
+Files:194
+Files:504
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns/ref_rot/0
+--Labels set encontrado en ../labels/ref_rot/0
+--Modelo encontrado en ../models/resnet/ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/ref_rot/resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns/ref_rot/1
+--Labels set encontrado en ../labels/ref_rot/1
+--Modelo encontrado en ../models/resnet/ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/ref_rot/resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns/ref_rot/2
+--Labels set encontrado en ../labels/ref_rot/2
+--Modelo encontrado en ../models/resnet/ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/ref_rot/resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns/ref_rot/3
+--Labels set encontrado en ../labels/ref_rot/3
+--Modelo encontrado en ../models/resnet/ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/ref_rot/resnet50_K3
+Files:2298
+Files:78
+Files:194
+Files:2307
+Files:78
+Files:194
+Files:2271
+Files:78
+Files:194
+Files:2259
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns/rain_ref_rot/0
+--Labels set encontrado en ../labels/rain_ref_rot/0
+--Modelo encontrado en ../models/resnet/rain_ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/rain_ref_rot/resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns/rain_ref_rot/1
+--Labels set encontrado en ../labels/rain_ref_rot/1
+--Modelo encontrado en ../models/resnet/rain_ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/rain_ref_rot/resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns/rain_ref_rot/2
+--Labels set encontrado en ../labels/rain_ref_rot/2
+--Modelo encontrado en ../models/resnet/rain_ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/rain_ref_rot/resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns/rain_ref_rot/3
+--Labels set encontrado en ../labels/rain_ref_rot/3
+--Modelo encontrado en ../models/resnet/rain_ref_rot/resnet50_K0.pth
+--Features a guardar en ../features/resnet/rain_ref_rot/resnet50_K3
+Files:2802
+Files:78
+Files:194
+Files:2811
+Files:78
+Files:194
+Files:2775
+Files:78
+Files:194
+Files:2763
+Files:78
+Files:194
