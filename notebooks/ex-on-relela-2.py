@@ -73,6 +73,10 @@ FLAGS = [
     ['randaug'],
     ['ref', 'rot'],
     ['ref', 'rot', 'rain'],
+    ['ref', 'rot', 'rain', 'elastic'],
+    ['ref', 'rot', 'rain', 'elastic', 'blur'],
+    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
+    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug']
 ]
 
 for DS_FLAGS in FLAGS:
@@ -164,7 +168,10 @@ for DS_FLAGS in FLAGS:
 
     class_names = train_dataset.classes
 
-    device = ('cuda' if torch.cuda.is_available() else 'cpu')
+    device = ('cuda:0' if torch.cuda.is_available() else None)
+    if device is None:
+        raise Exception("La gpu solicitada no esta disponible")
+    print("Usando ", device)
 
     def train_model(model, criterion, optimizer, num_epochs=30, output_path = 'model.pth', save_each = -1, patience=15):
         best_model_wts = copy.deepcopy(model.state_dict())

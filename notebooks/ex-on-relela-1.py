@@ -58,7 +58,6 @@ FLAGS = [
     ['ref', 'rot', 'rain', 'elastic', 'blur'],
     ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
     ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug'],
-
 ]
 
 labels_dir = os.path.join(root_dir, "labels")
@@ -82,7 +81,7 @@ for DS_FLAGS in FLAGS:
              'randaug': RANDOM_TIMES,
              'elastic': ELASTIC_TIMES,
              'gausblur': GAUSBLUR_TIMES,
-    }
+        }
 
     # Variables globales
     SUBCHAPTERS = False
