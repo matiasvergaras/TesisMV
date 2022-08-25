@@ -57,10 +57,17 @@ except:
 
 
 #modify only this cell
-USE_RN50 = True
+USE_RN50 = False
 SUBCHAPTERS = False
 
 FLAGS = [
+    #['blur'],
+    #['gausblur'],
+    #['mtnblur'],
+    #['crop'],
+    #['randaug'],
+    #['ref', 'rot'],
+    #['ref', 'rot', 'rain'],
     ['ref', 'rot', 'rain', 'elastic'],
     ['ref', 'rot', 'rain', 'elastic', 'blur'],
     ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
@@ -80,6 +87,7 @@ for DS_FLAGS in FLAGS:
     CROP_TIMES = 1
     RANDOM_TIMES = 1
     ELASTIC_TIMES = 1
+    GAUSBLUR_TIMES = 1
     SAVE_EACH = -1 # -1 to save only the best model
     TRAINING_EPOCHS = 80
     K = 4
@@ -94,11 +102,12 @@ for DS_FLAGS in FLAGS:
     MAP_TIMES = {'crop': CROP_TIMES,
              'randaug': RANDOM_TIMES,
              'elastic': ELASTIC_TIMES,
+             'gausblur': GAUSBLUR_TIMES
     }
 
     DS_FLAGS = sorted(DS_FLAGS)
     data_flags = '_'.join(DS_FLAGS) if len(DS_FLAGS) > 0 else 'base'
-    MULTIPLE_TRANSF = ['crop', 'randaug', 'elastic']
+    MULTIPLE_TRANSF = ['crop', 'randaug', 'elastic', 'gausblur']
     COPY_FLAGS = DS_FLAGS.copy()
 
     for t in MULTIPLE_TRANSF:
@@ -154,7 +163,10 @@ for DS_FLAGS in FLAGS:
 
     class_names = train_dataset.classes
 
-    device = ('cuda' if torch.cuda.is_available() else 'cpu')
+    device = ('cuda:0' if torch.cuda.is_available() else None)
+    if device is None:
+        raise Exception("La gpu solicitada no esta disponible")
+    print("Usando ", device)
 
     def train_model(model, criterion, optimizer, num_epochs=30, output_path = 'model.pth', save_each = -1, patience=15):
         best_model_wts = copy.deepcopy(model.state_dict())
