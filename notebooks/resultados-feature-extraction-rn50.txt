@@ -1,0 +1,290 @@
+Fold  0
+--Pattern set encontrado en ../patterns\ref\0
+--Labels set encontrado en ../labels\ref\0
+--Modelo encontrado en ../models\resnet\ref\resnet50_K0.pth
+--Features a guardar en ../features\resnet\ref\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\ref\1
+--Labels set encontrado en ../labels\ref\1
+--Modelo encontrado en ../models\resnet\ref\resnet50_K0.pth
+--Features a guardar en ../features\resnet\ref\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\ref\2
+--Labels set encontrado en ../labels\ref\2
+--Modelo encontrado en ../models\resnet\ref\resnet50_K0.pth
+--Features a guardar en ../features\resnet\ref\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\ref\3
+--Labels set encontrado en ../labels\ref\3
+--Modelo encontrado en ../models\resnet\ref\resnet50_K0.pth
+--Features a guardar en ../features\resnet\ref\resnet50_K3
+Files:1270
+Files:78
+Files:194
+Files:1273
+Files:78
+Files:194
+Files:1261
+Files:78
+Files:194
+Files:1257
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\rot\0
+--Labels set encontrado en ../labels\rot\0
+--Modelo encontrado en ../models\resnet\rot\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rot\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\rot\1
+--Labels set encontrado en ../labels\rot\1
+--Modelo encontrado en ../models\resnet\rot\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rot\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\rot\2
+--Labels set encontrado en ../labels\rot\2
+--Modelo encontrado en ../models\resnet\rot\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rot\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\rot\3
+--Labels set encontrado en ../labels\rot\3
+--Modelo encontrado en ../models\resnet\rot\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rot\resnet50_K3
+Files:1532
+Files:78
+Files:194
+Files:1538
+Files:78
+Files:194
+Files:1514
+Files:78
+Files:194
+Files:1506
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\rain\0
+--Labels set encontrado en ../labels\rain\0
+--Modelo encontrado en ../models\resnet\rain\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rain\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\rain\1
+--Labels set encontrado en ../labels\rain\1
+--Modelo encontrado en ../models\resnet\rain\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rain\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\rain\2
+--Labels set encontrado en ../labels\rain\2
+--Modelo encontrado en ../models\resnet\rain\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rain\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\rain\3
+--Labels set encontrado en ../labels\rain\3
+--Modelo encontrado en ../models\resnet\rain\resnet50_K0.pth
+--Features a guardar en ../features\resnet\rain\resnet50_K3
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\elastic1\0
+--Labels set encontrado en ../labels\elastic1\0
+--Modelo encontrado en ../models\resnet\elastic1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\elastic1\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\elastic1\1
+--Labels set encontrado en ../labels\elastic1\1
+--Modelo encontrado en ../models\resnet\elastic1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\elastic1\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\elastic1\2
+--Labels set encontrado en ../labels\elastic1\2
+--Modelo encontrado en ../models\resnet\elastic1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\elastic1\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\elastic1\3
+--Labels set encontrado en ../labels\elastic1\3
+--Modelo encontrado en ../models\resnet\elastic1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\elastic1\resnet50_K3
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\blur\0
+--Labels set encontrado en ../labels\blur\0
+--Modelo encontrado en ../models\resnet\blur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\blur\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\blur\1
+--Labels set encontrado en ../labels\blur\1
+--Modelo encontrado en ../models\resnet\blur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\blur\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\blur\2
+--Labels set encontrado en ../labels\blur\2
+--Modelo encontrado en ../models\resnet\blur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\blur\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\blur\3
+--Labels set encontrado en ../labels\blur\3
+--Modelo encontrado en ../models\resnet\blur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\blur\resnet50_K3
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\gausblur1\0
+--Labels set encontrado en ../labels\gausblur1\0
+--Modelo encontrado en ../models\resnet\gausblur1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\gausblur1\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\gausblur1\1
+--Labels set encontrado en ../labels\gausblur1\1
+--Modelo encontrado en ../models\resnet\gausblur1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\gausblur1\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\gausblur1\2
+--Labels set encontrado en ../labels\gausblur1\2
+--Modelo encontrado en ../models\resnet\gausblur1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\gausblur1\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\gausblur1\3
+--Labels set encontrado en ../labels\gausblur1\3
+--Modelo encontrado en ../models\resnet\gausblur1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\gausblur1\resnet50_K3
+Files:1512
+Files:78
+Files:194
+Files:1512
+Files:78
+Files:194
+Files:1512
+Files:78
+Files:194
+Files:1512
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\mtnblur\0
+--Labels set encontrado en ../labels\mtnblur\0
+--Modelo encontrado en ../models\resnet\mtnblur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\mtnblur\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\mtnblur\1
+--Labels set encontrado en ../labels\mtnblur\1
+--Modelo encontrado en ../models\resnet\mtnblur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\mtnblur\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\mtnblur\2
+--Labels set encontrado en ../labels\mtnblur\2
+--Modelo encontrado en ../models\resnet\mtnblur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\mtnblur\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\mtnblur\3
+--Labels set encontrado en ../labels\mtnblur\3
+--Modelo encontrado en ../models\resnet\mtnblur\resnet50_K0.pth
+--Features a guardar en ../features\resnet\mtnblur\resnet50_K3
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\crop1\0
+--Labels set encontrado en ../labels\crop1\0
+--Modelo encontrado en ../models\resnet\crop1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\crop1\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\crop1\1
+--Labels set encontrado en ../labels\crop1\1
+--Modelo encontrado en ../models\resnet\crop1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\crop1\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\crop1\2
+--Labels set encontrado en ../labels\crop1\2
+--Modelo encontrado en ../models\resnet\crop1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\crop1\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\crop1\3
+--Labels set encontrado en ../labels\crop1\3
+--Modelo encontrado en ../models\resnet\crop1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\crop1\resnet50_K3
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Fold  0
+--Pattern set encontrado en ../patterns\randaug1\0
+--Labels set encontrado en ../labels\randaug1\0
+--Modelo encontrado en ../models\resnet\randaug1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\randaug1\resnet50_K0
+Fold  1
+--Pattern set encontrado en ../patterns\randaug1\1
+--Labels set encontrado en ../labels\randaug1\1
+--Modelo encontrado en ../models\resnet\randaug1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\randaug1\resnet50_K1
+Fold  2
+--Pattern set encontrado en ../patterns\randaug1\2
+--Labels set encontrado en ../labels\randaug1\2
+--Modelo encontrado en ../models\resnet\randaug1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\randaug1\resnet50_K2
+Fold  3
+--Pattern set encontrado en ../patterns\randaug1\3
+--Labels set encontrado en ../labels\randaug1\3
+--Modelo encontrado en ../models\resnet\randaug1\resnet50_K0.pth
+--Features a guardar en ../features\resnet\randaug1\resnet50_K3
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Files:1008
+Files:78
+Files:194
+Fold  0
+../models\resnet\ref_rot\resnet50_K0.pth

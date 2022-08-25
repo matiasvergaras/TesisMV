@@ -58,7 +58,7 @@ except:
 
 
 #modify only this cell
-USE_RN50 = False
+USE_RN50 = True
 SUBCHAPTERS = False
 
 FLAGS = [
