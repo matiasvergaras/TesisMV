@@ -47,11 +47,17 @@ except:
 # In[3]:
 
 FLAGS = [
-    #['ref', 'rot', 'rain', 'elastic'],
-         #['ref', 'rot', 'rain', 'elastic', 'blur'],
+    ['blur'],
+    ['gausblur'],
+    ['mtnblur'],
+    ['crop'],
+    ['randaug'],
+    ['ref', 'rot'],
+    ['ref', 'rot', 'rain'],
+    ['ref', 'rot', 'rain', 'elastic'],
+    ['ref', 'rot', 'rain', 'elastic', 'blur'],
     ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
     ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug'],
-
 ]
 
 labels_dir = os.path.join(root_dir, "labels")

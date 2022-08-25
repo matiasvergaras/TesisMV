@@ -36,6 +36,7 @@ from torch.utils.data import DataLoader
 import numpy as np, scipy.io
 import argparse
 import json
+import warnings
 
 
 # ## Mounting Google Drive
@@ -61,21 +62,25 @@ USE_RN50 = False
 SUBCHAPTERS = False
 
 FLAGS = [
-    #['blur'],
-    #['gausblur'],
-    #['mtnblur'],
-    #['crop'],
-    #['randaug'],
-    #['ref', 'rot'],
-    #['ref', 'rot', 'rain'],
+    ['ref'],
+    ['rot'],
+    ['rain'],
+    ['elastic'],
+    ['blur'],
+    ['gausblur'],
+    ['mtnblur'],
+    ['crop'],
+    ['randaug'],
+    ['ref', 'rot'],
+    ['ref', 'rot', 'rain'],
     ['ref', 'rot', 'rain', 'elastic'],
     ['ref', 'rot', 'rain', 'elastic', 'blur'],
     ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
-    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug'],
-
+    ['ref', 'rot', 'rain', 'elastic', 'blur', 'crop', 'randaug']
 ]
 
 for DS_FLAGS in FLAGS:
+    warnings.warn(f"Iniciando DS_FLAGS {DS_FLAGS}")
               # 'ref': [invertX, invertY],
               # 'rot': [rotate90, rotate180, rotate270],
               # 'crop': [crop] * CROP_TIMES,
@@ -102,7 +107,7 @@ for DS_FLAGS in FLAGS:
     MAP_TIMES = {'crop': CROP_TIMES,
              'randaug': RANDOM_TIMES,
              'elastic': ELASTIC_TIMES,
-             'gausblur': GAUSBLUR_TIMES
+             'gausblur': GAUSBLUR_TIMES,
     }
 
     DS_FLAGS = sorted(DS_FLAGS)
