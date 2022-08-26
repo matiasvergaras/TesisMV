@@ -21,7 +21,7 @@ try:
     drive.mount('/content/drive')
     root_dir = '../content/gdrive/MyDrive'
 except:
-    root_dir = '../'
+    root_dir = '../../'
 
 
 # In[2]:

@@ -49,7 +49,7 @@ try:
     drive.mount('/content/drive')
     folder_path = 'drive/MyDrive/TesisMV/'
 except:
-    folder_path = '../'
+    folder_path = '../../'
 
 
 # ## Dataset and model selection

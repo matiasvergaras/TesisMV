@@ -49,7 +49,7 @@ try:
     drive.mount('/content/drive')
     root_dir = 'drive/MyDrive/TesisMV/'
 except:
-    root_dir = '../'
+    root_dir = '../../'
 
 
 # ## Dataset and model selection
@@ -58,7 +58,7 @@ except:
 
 
 #modify only this cell
-USE_RN50 = True
+USE_RN50 = False
 SUBCHAPTERS = False
 
 FLAGS = [
@@ -72,8 +72,8 @@ FLAGS = [
     #['mtnblur'],
     #['crop'],
     #['randaug'],
-    ['ref', 'rot'],
-    ['ref', 'rot', 'rain'],
+    #['ref', 'rot'],
+    #['ref', 'rot', 'rain'],
     #['ref', 'rot', 'rain', 'elastic'],
     #['ref', 'rot', 'rain', 'elastic', 'blur'],
     #['ref', 'rot', 'rain', 'elastic', 'blur', 'crop'],
