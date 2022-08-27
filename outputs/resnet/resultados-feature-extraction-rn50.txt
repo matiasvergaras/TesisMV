@@ -286,8 +286,6 @@ Files:194
 Files:1008
 Files:78
 Files:194
-Fold  0
-../models\resnet\ref_rot\resnet50_K0.pth
 
 Fold  0
 --Pattern set encontrado en ../patterns/rain_ref_rot_elastic1/0
