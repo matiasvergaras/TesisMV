@@ -62,7 +62,7 @@ USE_RN50 = False
 SUBCHAPTERS = False
 
 FLAGS = [
-    ['base'],
+    [],
     #['ref'],
     #['rot'],
     #['rain'],

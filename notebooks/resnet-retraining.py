@@ -168,7 +168,8 @@ for USE_RN in USE_RNS:
 
         class_names = train_dataset.classes
 
-        device = ('cuda' if torch.cuda.is_available() else 'cpu')
+        device = ('cuda:0' if torch.cuda.is_available() else 'cpu')
+        print("Utilizando device: ", device)
 
         def train_model(model, criterion, optimizer, num_epochs=30, output_path = 'model.pth', save_each = -1, patience=15):
             best_model_wts = copy.deepcopy(model.state_dict())
@@ -298,13 +299,8 @@ for USE_RN in USE_RNS:
         # save best model
         torch.save(model_ft.state_dict(), output_path)
 
-
-        # ## Testing Transfer Learning
-
-        # In[11]:
-
-
         model = model_output_path
+
         # model = '../' + 'models/resnet/resnet50_blur_each5/resnet50_blur_e75.pth'
         #USE_RN50 = True
 
@@ -330,7 +326,7 @@ for USE_RN in USE_RNS:
 
         model_ft = model_ft.to(device)
 
-        model_ft.load_state_dict(torch.load(model))
+        model_ft.load_state_dict(torch.load(model_output_path))
         criterion = nn.CrossEntropyLoss()
 
         model_ft.eval()

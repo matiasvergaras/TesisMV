@@ -1,9 +1,0 @@
-,0
-accuracy,0.1546
-hamming_score,0.2358
-hamming_loss,0.3503
-f1_score,0.2543
-recall,0.211
-precision,0.3354
-emr,0.1546
-5mr,0.0
