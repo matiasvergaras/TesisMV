@@ -57,20 +57,19 @@ except:
 
 
 #modify only this cell
-USE_RN50 = False
 SUBCHAPTERS = False
 
-USE_RNS = [True, False]
+USE_RNS = [False]#, False]
 FLAGS = [
     [],
-    ['blur'],
-    ['blur', 'rain', 'ref', 'rot', 'crop', 'elastic'],
-    ['blur', 'rain', 'ref', 'rot', 'crop', 'randaug', 'elastic'],
-    ['blur', 'rain', 'ref', 'rot', 'elastic'],
-    ['crop'],
-    ['elastic'],
-    ['gausblur'],
-    ['mtnblur'],
+    #['blur'],
+    #['blur', 'rain', 'ref', 'rot', 'crop', 'elastic'],
+    #['blur', 'rain', 'ref', 'rot', 'crop', 'randaug', 'elastic'],
+    #['blur', 'rain', 'ref', 'rot', 'elastic'],
+    #['crop'],
+    #['elastic'],
+    #['gausblur'],
+    #['mtnblur'],
     ['rain'],
     ['rain', 'ref', 'rot'],
     ['rain', 'ref', 'rot', 'elastic'],
@@ -82,7 +81,13 @@ FLAGS = [
 
 for USE_RN in USE_RNS:
     USE_RN50 = USE_RN
+    print()
+    print("=" * 40)
+    print()
     for DS_FLAGS in FLAGS:
+        print()
+        print("*" * 40)
+        print()
                   # 'ref': [invertX, invertY],
                   # 'rot': [rotate90, rotate180, rotate270],
                   # 'crop': [crop] * CROP_TIMES,
@@ -94,6 +99,7 @@ for USE_RN in USE_RNS:
         CROP_TIMES = 1
         RANDOM_TIMES = 1
         ELASTIC_TIMES = 1
+        GAUSBLUR_TIMES = 1
         SAVE_EACH = -1 # -1 to save only the best model
         TRAINING_EPOCHS = 80
         K = 4
@@ -108,11 +114,12 @@ for USE_RN in USE_RNS:
         MAP_TIMES = {'crop': CROP_TIMES,
                  'randaug': RANDOM_TIMES,
                  'elastic': ELASTIC_TIMES,
+                 'gausblur': GAUSBLUR_TIMES,
         }
 
         DS_FLAGS = sorted(DS_FLAGS)
         data_flags = '_'.join(DS_FLAGS) if len(DS_FLAGS) > 0 else 'base'
-        MULTIPLE_TRANSF = ['crop', 'randaug', 'elastic']
+        MULTIPLE_TRANSF = ['crop', 'randaug', 'elastic', 'gausblur']
         COPY_FLAGS = DS_FLAGS.copy()
 
         for t in MULTIPLE_TRANSF:
@@ -124,6 +131,8 @@ for USE_RN in USE_RNS:
         subchapter_str = 'subchapters/' if SUBCHAPTERS else ''
         patterns_path = folder_path + 'patterns/' + subchapter_str + data_flags + '/' + str(k_model)
         labels_path = folder_path + 'labels/' + subchapter_str + data_flags + '/' + str(k_model)
+        if not (os.path.isdir(patterns_path) and os.path.isdir(labels_path)):
+            raise FileNotFoundError("No existen directorios de datos para el conjunto de flags seleccionado. Verifique que el dataset exista y, de lo contrario, llame a Split and Augmentation")
         if not (os.path.isdir(patterns_path) and os.path.isdir(labels_path)):
             raise FileNotFoundError("No existen directorios de datos para el conjunto de flags seleccionado. Verifique que el dataset exista y, de lo contrario, llame a Split and Augmentation")
         print("Pattern set encontrado en {}".format(patterns_path))
@@ -168,7 +177,8 @@ for USE_RN in USE_RNS:
 
         class_names = train_dataset.classes
 
-        device = ('cuda' if torch.cuda.is_available() else 'cpu')
+        device = ('cuda:0' if torch.cuda.is_available() else 'cpu')
+        print("Utilizando device: ", torch.cuda.get_device_name(device))
 
         def train_model(model, criterion, optimizer, num_epochs=30, output_path = 'model.pth', save_each = -1, patience=15):
             best_model_wts = copy.deepcopy(model.state_dict())
@@ -303,8 +313,6 @@ for USE_RN in USE_RNS:
 
         # In[11]:
 
-
-        model = model_output_path
         # model = '../' + 'models/resnet/resnet50_blur_each5/resnet50_blur_e75.pth'
         #USE_RN50 = True
 
@@ -318,7 +326,7 @@ for USE_RN in USE_RNS:
                                                                                                 std = [0.229, 0.224, 0.225])]))
 
         test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=1, shuffle=True)
-        device = ('cuda' if torch.cuda.is_available() else 'cpu')
+        device = ('cuda:0' if torch.cuda.is_available() else 'cpu')
 
         if USE_RN50:
             model_ft = models.resnet50(pretrained=True)
@@ -330,7 +338,7 @@ for USE_RN in USE_RNS:
 
         model_ft = model_ft.to(device)
 
-        model_ft.load_state_dict(torch.load(model))
+        model_ft.load_state_dict(torch.load(model_output_path))
         criterion = nn.CrossEntropyLoss()
 
         model_ft.eval()
