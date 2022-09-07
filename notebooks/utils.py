@@ -26,41 +26,35 @@ class KunischMetrics:
         self.y_true = y_true
         self.y_pred = y_pred
 
-    def get_f1(self, average='micro'):
+    def f1(self, average='micro'):
         return round(f1_score(self.y_true, self.y_pred, average=average), 4)
 
-    def get_recall(self, average='micro'):
+    def recall(self, average='micro'):
         return round(recall_score(self.y_true, self.y_pred, average=average), 4)
 
-    def get_precision(self, average='micro'):
+    def precision(self, average='micro'):
         return round(precision_score(self.y_true, self.y_pred, average=average), 4)
 
-    def get_accuracy(self, normalize=True):
+    def acc(self, normalize=True):
         return round(accuracy_score(self.y_true, self.y_pred, normalize=normalize), 4)
 
-    def get_hamming_loss(self, normalize=True):
+    def hl(self, normalize=True):
         # Compute the average Hamming loss.
         # The Hamming loss is the fraction of labels that are incorrectly predicted.
         return round(hamming_loss(self.y_true, self.y_pred), 4)
 
-    def get_emr(self):
+    def emr(self):
         # Compute Exact Match Ratio.
         return round(np.all(self.y_pred == self.y_true, axis=1).mean(), 4)
 
-    def old_hamming_score(self):
         # Compute Hamming Score
         # Hamming Score = |Intersección de positivos|/|Unión de positivos|, promediado por la cantidad de samples
         # También se puede ver como la proporción de etiquetas correctamente asignadas sobre la cantidad total de
         # etiquetas asignadas. Se conoce además como Multilabel Accuracy, y "castiga" por: (1) no predecir una etiqueta
         # correcta (disminuyendo la cardinalidad de la intersección) y (2) incluir una etiqueta incorrecta (aumentando
         # la cardinalidad de la unión).
-        temp = 0
-        for i in range(self.y_true.shape[0]):
-            temp += sum(np.logical_and(self.y_true[i], self.y_pred[i])) / sum(
-                np.logical_or(self.y_true[i], self.y_pred[i]))
-        return round( temp / self.y_true.shape[0], 4)
 
-    def get_hamming_score(self):
+    def hs(self):
         acc_list = []
         for i in range(self.y_true.shape[0]):
             set_true = set(np.where(self.y_true[i])[0])
@@ -86,6 +80,21 @@ class KunischMetrics:
             tp = np.sum(tp)
             count += 1 if tp >= n else 0
         return round(count / self.y_true.shape[0], 4)
+
+    def mr1(self):
+        return self.k_match_ratio(1)
+
+    def mr2(self):
+        return self.k_match_ratio(2)
+
+    def mr3(self):
+        return self.k_match_ratio(3)
+
+    def mr4(self):
+        return self.k_match_ratio(4)
+
+    def mr5(self):
+        return self.k_match_ratio(5)
 
 
 class KunischPruner:
@@ -202,7 +211,9 @@ class KunischPlotter:
 
         self.linemarks = linemarks
 
-    def plot_results(self, x, score=[], label=[], title="", xlabel="", ylabel="", width=7, height=9, ylim=0.6):
+    def plot_results(self, x, score=[], label=[], title="", xlabel="", ylabel="", width=7, height=9,
+                     ylim=0.6, xlim=300,
+                     order=None, grid=False, minorgrid=False):
         assert len(x) == len(score[0])
         fig = plt.figure(1)
         fig.set_figheight(height)
@@ -212,9 +223,27 @@ class KunischPlotter:
         ax.set_xlabel(xlabel)
         ax.set_ylabel(ylabel)
         ax.set_ylim(0, ylim)
+        ax.set_xlim(0, xlim)
         for i in range(0, len(score)):
             ax.plot(x, score[i], self.linemarks[i], label=label[i])
         ax.legend()
+
+        if grid:
+            ax.grid(which='both')
+
+        if minorgrid:
+            ax.minorticks_on()
+            # Customize the major grid
+            ax.grid(which='major', linestyle='-', linewidth='0.5')
+            # Customize the minor grid
+            ax.grid(which='minor', linestyle=':', linewidth='0.5')
+
+        # labels en orden deseado
+        if order is not None:
+            handles, labels = plt.gca().get_legend_handles_labels()
+            order = order
+            ax.legend([handles[idx] for idx in order], [labels[idx] for idx in order])
+
         fig.show()
 
     def print_confusion_matrix(self, cm, axes, class_label, class_names, fontsize=14, normalize=True):
