@@ -1,0 +1,632 @@
+Fold  0
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_elastic1\0
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_elastic1\0
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_elastic1\resnet50_K0
+
+Fold  1
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_elastic1\1
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_elastic1\1
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_elastic1\resnet50_K1
+
+Fold  2
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_elastic1\2
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_elastic1\2
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_elastic1\resnet50_K2
+
+Fold  3
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_elastic1\3
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_elastic1\3
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_elastic1\resnet50_K3
+
+Iniciando revisión de datasets
+Fold  0
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Fold  1
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Fold  2
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Fold  3
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Explorando fold 0
+Etiquetas 75f: horizontalpanelconcentriccircle
+Number of unique labels combinations in all: 587
+Label cardinality in all: 5.240296554731837
+Label density in all: 0.001142672602427352
+..\outputs\resnet\blur_rain_ref_rot_crop1_elastic1\26-26L\rn-50
+Comenzando con i=26
+Usando top_labels previamente generados para 26 labels
+top labels previamente generado contiene 26 etiquetas
+-Probando suerte con BRkNN
+---AVG Micro F1: 0.2063
+---AVG Micro recall: 0.2022
+---AVG Micro precision: 0.2107
+---AVG Accuracy: 0.0078
+---AVG Hamming Loss: 0.2026
+---AVG Exact Match Ratio: 0.0078
+---AVG Hamming Score: 0.1185
+---AVG 1-Match Ratio: 0.4124
+---AVG 2-Match Ratio: 0.2307
+---AVG 3-Match Ratio: 0.0309
+---AVG 4-Match Ratio: 0.009
+---AVG 5-Match Ratio: 0.0013
+
+-Probando suerte con MLkNN
+---AVG Micro F1: 0.2063
+---AVG Micro recall: 0.2022
+---AVG Micro precision: 0.2107
+---AVG Accuracy: 0.0078
+---AVG Hamming Loss: 0.2026
+---AVG Exact Match Ratio: 0.0078
+---AVG Hamming Score: 0.1185
+---AVG 1-Match Ratio: 0.4124
+---AVG 2-Match Ratio: 0.2307
+---AVG 3-Match Ratio: 0.0309
+---AVG 4-Match Ratio: 0.009
+---AVG 5-Match Ratio: 0.0013
+
+-Probando suerte con MLTSVM
+---AVG Micro F1: 0.0556
+---AVG Micro recall: 0.0422
+---AVG Micro precision: 0.0814
+---AVG Accuracy: 0.0052
+---AVG Hamming Loss: 0.1862
+---AVG Exact Match Ratio: 0.0052
+---AVG Hamming Score: 0.0301
+---AVG 1-Match Ratio: 0.125
+---AVG 2-Match Ratio: 0.0155
+---AVG 3-Match Ratio: 0.0026
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR LR
+---AVG Micro F1: 0.1304
+---AVG Micro recall: 0.0762
+---AVG Micro precision: 0.4571
+---AVG Accuracy: 0.0206
+---AVG Hamming Loss: 0.132
+---AVG Exact Match Ratio: 0.0206
+---AVG Hamming Score: 0.0629
+---AVG 1-Match Ratio: 0.2036
+---AVG 2-Match Ratio: 0.0541
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR SVC
+---AVG Micro F1: 0.0743
+---AVG Micro recall: 0.0404
+---AVG Micro precision: 0.4908
+---AVG Accuracy: 0.0155
+---AVG Hamming Loss: 0.1306
+---AVG Exact Match Ratio: 0.0155
+---AVG Hamming Score: 0.0466
+---AVG 1-Match Ratio: 0.1315
+---AVG 2-Match Ratio: 0.0052
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR DT
+---AVG Micro F1: 0.2222
+---AVG Micro recall: 0.2412
+---AVG Micro precision: 0.206
+---AVG Accuracy: 0.0039
+---AVG Hamming Loss: 0.2195
+---AVG Exact Match Ratio: 0.0039
+---AVG Hamming Score: 0.12
+---AVG 1-Match Ratio: 0.5863
+---AVG 2-Match Ratio: 0.2023
+---AVG 3-Match Ratio: 0.0284
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR GNB
+---AVG Micro F1: 0.2178
+---AVG Micro recall: 0.5252
+---AVG Micro precision: 0.1374
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.491
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1222
+---AVG 1-Match Ratio: 0.8041
+---AVG 2-Match Ratio: 0.5644
+---AVG 3-Match Ratio: 0.2758
+---AVG 4-Match Ratio: 0.0992
+---AVG 5-Match Ratio: 0.0283
+
+-Probando suerte con LP LR
+---AVG Micro F1: 0.208
+---AVG Micro recall: 0.1954
+---AVG Micro precision: 0.2225
+---AVG Accuracy: 0.0116
+---AVG Hamming Loss: 0.1936
+---AVG Exact Match Ratio: 0.0116
+---AVG Hamming Score: 0.1178
+---AVG 1-Match Ratio: 0.3917
+---AVG 2-Match Ratio: 0.2332
+---AVG 3-Match Ratio: 0.0284
+---AVG 4-Match Ratio: 0.0077
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con LP SVC
+---AVG Micro F1: 0.2583
+---AVG Micro recall: 0.2156
+---AVG Micro precision: 0.3243
+---AVG Accuracy: 0.0284
+---AVG Hamming Loss: 0.1604
+---AVG Exact Match Ratio: 0.0284
+---AVG Hamming Score: 0.1134
+---AVG 1-Match Ratio: 0.4239
+---AVG 2-Match Ratio: 0.2977
+---AVG 3-Match Ratio: 0.0052
+---AVG 4-Match Ratio: 0.0026
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con LP DT
+---AVG Micro F1: 0.1967
+---AVG Micro recall: 0.193
+---AVG Micro precision: 0.2007
+---AVG Accuracy: 0.0064
+---AVG Hamming Loss: 0.2052
+---AVG Exact Match Ratio: 0.0064
+---AVG Hamming Score: 0.119
+---AVG 1-Match Ratio: 0.4188
+---AVG 2-Match Ratio: 0.2036
+---AVG 3-Match Ratio: 0.0245
+---AVG 4-Match Ratio: 0.0052
+---AVG 5-Match Ratio: 0.0013
+
+-Probando suerte con LP GNB
+---AVG Micro F1: 0.1959
+---AVG Micro recall: 0.2062
+---AVG Micro precision: 0.1866
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.2205
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1222
+---AVG 1-Match Ratio: 0.4382
+---AVG 2-Match Ratio: 0.2088
+---AVG 3-Match Ratio: 0.0387
+---AVG 4-Match Ratio: 0.0129
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con CC LR
+---AVG Micro F1: 0.1172
+---AVG Micro recall: 0.0789
+---AVG Micro precision: 0.2292
+---AVG Accuracy: 0.0258
+---AVG Hamming Loss: 0.1542
+---AVG Exact Match Ratio: 0.0258
+---AVG Hamming Score: 0.1002
+---AVG 1-Match Ratio: 0.192
+---AVG 2-Match Ratio: 0.0709
+---AVG 3-Match Ratio: 0.0026
+---AVG 4-Match Ratio: 0.0013
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con CC SVC
+---AVG Micro F1: 0.0372
+---AVG Micro recall: 0.0214
+---AVG Micro precision: 0.1713
+---AVG Accuracy: 0.0219
+---AVG Hamming Loss: 0.1417
+---AVG Exact Match Ratio: 0.0219
+---AVG Hamming Score: 0.0658
+---AVG 1-Match Ratio: 0.067
+---AVG 2-Match Ratio: 0.0052
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con CC DT
+---AVG Micro F1: 0.2152
+---AVG Micro recall: 0.2238
+---AVG Micro precision: 0.2072
+---AVG Accuracy: 0.0078
+---AVG Hamming Loss: 0.2123
+---AVG Exact Match Ratio: 0.0078
+---AVG Hamming Score: 0.1179
+---AVG 1-Match Ratio: 0.4382
+---AVG 2-Match Ratio: 0.2564
+---AVG 3-Match Ratio: 0.0528
+---AVG 4-Match Ratio: 0.0103
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con CC GNB
+---AVG Micro F1: 0.2562
+---AVG Micro recall: 0.4004
+---AVG Micro precision: 0.1885
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.3022
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1222
+---AVG 1-Match Ratio: 0.6649
+---AVG 2-Match Ratio: 0.4781
+---AVG 3-Match Ratio: 0.1585
+---AVG 4-Match Ratio: 0.0451
+---AVG 5-Match Ratio: 0.0065
+
+-Probando suerte con RakelD LR
+---AVG Micro F1: 0.1676
+---AVG Micro recall: 0.1051
+---AVG Micro precision: 0.4202
+---AVG Accuracy: 0.0206
+---AVG Hamming Loss: 0.135
+---AVG Exact Match Ratio: 0.0206
+---AVG Hamming Score: 0.081
+---AVG 1-Match Ratio: 0.2757
+---AVG 2-Match Ratio: 0.0773
+---AVG 3-Match Ratio: 0.0026
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con RakelD SVC
+---AVG Micro F1: 0.0742
+---AVG Micro recall: 0.0406
+---AVG Micro precision: 0.4665
+---AVG Accuracy: 0.0206
+---AVG Hamming Loss: 0.13
+---AVG Exact Match Ratio: 0.0206
+---AVG Hamming Score: 0.0502
+---AVG 1-Match Ratio: 0.1288
+---AVG 2-Match Ratio: 0.009
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con RakelD DT
+---AVG Micro F1: 0.2287
+---AVG Micro recall: 0.241
+---AVG Micro precision: 0.2176
+---AVG Accuracy: 0.0026
+---AVG Hamming Loss: 0.2117
+---AVG Exact Match Ratio: 0.0026
+---AVG Hamming Score: 0.1203
+---AVG 1-Match Ratio: 0.5567
+---AVG 2-Match Ratio: 0.2229
+---AVG 3-Match Ratio: 0.0348
+---AVG 4-Match Ratio: 0.0013
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con RakelD GNB
+---AVG Micro F1: 0.1995
+---AVG Micro recall: 0.4492
+---AVG Micro precision: 0.1283
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.4693
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1222
+---AVG 1-Match Ratio: 0.8157
+---AVG 2-Match Ratio: 0.4562
+---AVG 3-Match Ratio: 0.174
+---AVG 4-Match Ratio: 0.0515
+---AVG 5-Match Ratio: 0.0193
+
+Fold  0
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_randaug1_elastic1\0
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_randaug1_elastic1\0
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_randaug1_elastic1\resnet50_K0
+
+Fold  1
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_randaug1_elastic1\1
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_randaug1_elastic1\1
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_randaug1_elastic1\resnet50_K1
+
+Fold  2
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_randaug1_elastic1\2
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_randaug1_elastic1\2
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_randaug1_elastic1\resnet50_K2
+
+Fold  3
+--Pattern set encontrado en ..\patterns\blur_rain_ref_rot_crop1_randaug1_elastic1\3
+--Labels set encontrado en ..\labels\blur_rain_ref_rot_crop1_randaug1_elastic1\3
+--Features set encontrado en ..\features\resnet\blur_rain_ref_rot_crop1_randaug1_elastic1\resnet50_K3
+
+Iniciando revisión de datasets
+Fold  0
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Fold  1
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Fold  2
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Fold  3
+--Utilizando descriptores de dimensión 2048
+--Los archivos de etiquetas contienen 330 etiquetas distintas.
+Fold aprobado.
+
+Explorando fold 0
+Etiquetas 75f: horizontalpanelconcentriccircle
+Number of unique labels combinations in all: 587
+Label cardinality in all: 5.244597249508827
+Label density in all: 0.0010303727405714788
+..\outputs\resnet\blur_rain_ref_rot_crop1_randaug1_elastic1\26-26L\rn-50
+Comenzando con i=26
+Usando top_labels previamente generados para 26 labels
+top labels previamente generado contiene 26 etiquetas
+-Probando suerte con BRkNN
+---AVG Micro F1: 0.2051
+---AVG Micro recall: 0.206
+---AVG Micro precision: 0.2043
+---AVG Accuracy: 0.009
+---AVG Hamming Loss: 0.2075
+---AVG Exact Match Ratio: 0.009
+---AVG Hamming Score: 0.1197
+---AVG 1-Match Ratio: 0.4226
+---AVG 2-Match Ratio: 0.2204
+---AVG 3-Match Ratio: 0.0425
+---AVG 4-Match Ratio: 0.0065
+---AVG 5-Match Ratio: 0.0026
+
+-Probando suerte con MLkNN
+---AVG Micro F1: 0.2051
+---AVG Micro recall: 0.206
+---AVG Micro precision: 0.2043
+---AVG Accuracy: 0.009
+---AVG Hamming Loss: 0.2075
+---AVG Exact Match Ratio: 0.009
+---AVG Hamming Score: 0.1197
+---AVG 1-Match Ratio: 0.4226
+---AVG 2-Match Ratio: 0.2204
+---AVG 3-Match Ratio: 0.0425
+---AVG 4-Match Ratio: 0.0065
+---AVG 5-Match Ratio: 0.0026
+
+-Probando suerte con MLTSVM
+---AVG Micro F1: 0.0622
+---AVG Micro recall: 0.0495
+---AVG Micro precision: 0.0844
+---AVG Accuracy: 0.0039
+---AVG Hamming Loss: 0.1936
+---AVG Exact Match Ratio: 0.0039
+---AVG Hamming Score: 0.0309
+---AVG 1-Match Ratio: 0.1405
+---AVG 2-Match Ratio: 0.0245
+---AVG 3-Match Ratio: 0.0026
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR LR
+---AVG Micro F1: 0.1475
+---AVG Micro recall: 0.0895
+---AVG Micro precision: 0.4234
+---AVG Accuracy: 0.0309
+---AVG Hamming Loss: 0.1343
+---AVG Exact Match Ratio: 0.0309
+---AVG Hamming Score: 0.0726
+---AVG 1-Match Ratio: 0.2307
+---AVG 2-Match Ratio: 0.0721
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR SVC
+---AVG Micro F1: 0.09
+---AVG Micro recall: 0.0495
+---AVG Micro precision: 0.5333
+---AVG Accuracy: 0.0142
+---AVG Hamming Loss: 0.1294
+---AVG Exact Match Ratio: 0.0142
+---AVG Hamming Score: 0.0483
+---AVG 1-Match Ratio: 0.1507
+---AVG 2-Match Ratio: 0.0168
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR DT
+---AVG Micro F1: 0.216
+---AVG Micro recall: 0.2406
+---AVG Micro precision: 0.1962
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.2273
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1189
+---AVG 1-Match Ratio: 0.5696
+---AVG 2-Match Ratio: 0.1972
+---AVG 3-Match Ratio: 0.0425
+---AVG 4-Match Ratio: 0.0052
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con BR GNB
+---AVG Micro F1: 0.1789
+---AVG Micro recall: 0.4438
+---AVG Micro precision: 0.1121
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.5313
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1222
+---AVG 1-Match Ratio: 0.768
+---AVG 2-Match Ratio: 0.4446
+---AVG 3-Match Ratio: 0.2023
+---AVG 4-Match Ratio: 0.0709
+---AVG 5-Match Ratio: 0.0155
+
+-Probando suerte con LP LR
+---AVG Micro F1: 0.2138
+---AVG Micro recall: 0.205
+---AVG Micro precision: 0.2236
+---AVG Accuracy: 0.0065
+---AVG Hamming Loss: 0.196
+---AVG Exact Match Ratio: 0.0065
+---AVG Hamming Score: 0.1183
+---AVG 1-Match Ratio: 0.4214
+---AVG 2-Match Ratio: 0.2332
+---AVG 3-Match Ratio: 0.0335
+---AVG 4-Match Ratio: 0.0052
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con LP SVC
+---AVG Micro F1: 0.2674
+---AVG Micro recall: 0.2247
+---AVG Micro precision: 0.3332
+---AVG Accuracy: 0.0296
+---AVG Hamming Loss: 0.1594
+---AVG Exact Match Ratio: 0.0296
+---AVG Hamming Score: 0.1162
+---AVG 1-Match Ratio: 0.4446
+---AVG 2-Match Ratio: 0.2989
+---AVG 3-Match Ratio: 0.0116
+---AVG 4-Match Ratio: 0.0052
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con LP DT
+---AVG Micro F1: 0.1956
+---AVG Micro recall: 0.1975
+---AVG Micro precision: 0.1939
+---AVG Accuracy: 0.0039
+---AVG Hamming Loss: 0.2114
+---AVG Exact Match Ratio: 0.0039
+---AVG Hamming Score: 0.1174
+---AVG 1-Match Ratio: 0.4304
+---AVG 2-Match Ratio: 0.2075
+---AVG 3-Match Ratio: 0.0232
+---AVG 4-Match Ratio: 0.0052
+---AVG 5-Match Ratio: 0.0013
+
+-Probando suerte con LP GNB
+---AVG Micro F1: 0.1938
+---AVG Micro recall: 0.1979
+---AVG Micro precision: 0.1899
+---AVG Accuracy: 0.0026
+---AVG Hamming Loss: 0.2144
+---AVG Exact Match Ratio: 0.0026
+---AVG Hamming Score: 0.1212
+---AVG 1-Match Ratio: 0.433
+---AVG 2-Match Ratio: 0.1997
+---AVG 3-Match Ratio: 0.0309
+---AVG 4-Match Ratio: 0.0065
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con CC LR
+---AVG Micro F1: 0.1323
+---AVG Micro recall: 0.0926
+---AVG Micro precision: 0.2328
+---AVG Accuracy: 0.0193
+---AVG Hamming Loss: 0.1577
+---AVG Exact Match Ratio: 0.0193
+---AVG Hamming Score: 0.1002
+---AVG 1-Match Ratio: 0.2216
+---AVG 2-Match Ratio: 0.0876
+---AVG 3-Match Ratio: 0.0026
+---AVG 4-Match Ratio: 0.0013
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con CC SVC
+---AVG Micro F1: 0.0583
+---AVG Micro recall: 0.034
+---AVG Micro precision: 0.2181
+---AVG Accuracy: 0.0168
+---AVG Hamming Loss: 0.1424
+---AVG Exact Match Ratio: 0.0168
+---AVG Hamming Score: 0.0719
+---AVG 1-Match Ratio: 0.098
+---AVG 2-Match Ratio: 0.0168
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con CC DT
+---AVG Micro F1: 0.2125
+---AVG Micro recall: 0.2325
+---AVG Micro precision: 0.1961
+---AVG Accuracy: 0.0116
+---AVG Hamming Loss: 0.2242
+---AVG Exact Match Ratio: 0.0116
+---AVG Hamming Score: 0.1216
+---AVG 1-Match Ratio: 0.4639
+---AVG 2-Match Ratio: 0.259
+---AVG 3-Match Ratio: 0.0528
+---AVG 4-Match Ratio: 0.009
+---AVG 5-Match Ratio: 0.0026
+
+-Probando suerte con CC GNB
+---AVG Micro F1: 0.1948
+---AVG Micro recall: 0.3087
+---AVG Micro precision: 0.1426
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.3311
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1222
+---AVG 1-Match Ratio: 0.5967
+---AVG 2-Match Ratio: 0.3209
+---AVG 3-Match Ratio: 0.107
+---AVG 4-Match Ratio: 0.0206
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con RakelD LR
+---AVG Micro F1: 0.1488
+---AVG Micro recall: 0.0947
+---AVG Micro precision: 0.3569
+---AVG Accuracy: 0.018
+---AVG Hamming Loss: 0.1398
+---AVG Exact Match Ratio: 0.018
+---AVG Hamming Score: 0.0724
+---AVG 1-Match Ratio: 0.2306
+---AVG 2-Match Ratio: 0.0876
+---AVG 3-Match Ratio: 0.0026
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con RakelD SVC
+---AVG Micro F1: 0.1749
+---AVG Micro recall: 0.1089
+---AVG Micro precision: 0.4683
+---AVG Accuracy: 0.0271
+---AVG Hamming Loss: 0.1312
+---AVG Exact Match Ratio: 0.0271
+---AVG Hamming Score: 0.0754
+---AVG 1-Match Ratio: 0.2719
+---AVG 2-Match Ratio: 0.0967
+---AVG 3-Match Ratio: 0.0
+---AVG 4-Match Ratio: 0.0
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con RakelD DT
+---AVG Micro F1: 0.2056
+---AVG Micro recall: 0.2148
+---AVG Micro precision: 0.1973
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.2158
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1164
+---AVG 1-Match Ratio: 0.5103
+---AVG 2-Match Ratio: 0.1843
+---AVG 3-Match Ratio: 0.0283
+---AVG 4-Match Ratio: 0.0039
+---AVG 5-Match Ratio: 0.0
+
+-Probando suerte con RakelD GNB
+---AVG Micro F1: 0.1884
+---AVG Micro recall: 0.4038
+---AVG Micro precision: 0.1229
+---AVG Accuracy: 0.0
+---AVG Hamming Loss: 0.4527
+---AVG Exact Match Ratio: 0.0
+---AVG Hamming Score: 0.1222
+---AVG 1-Match Ratio: 0.7475
+---AVG 2-Match Ratio: 0.3931
+---AVG 3-Match Ratio: 0.1611
+---AVG 4-Match Ratio: 0.0515
+---AVG 5-Match Ratio: 0.0129
+
