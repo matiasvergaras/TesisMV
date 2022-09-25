@@ -187,10 +187,11 @@ class DataExplorer:
 
         sum_labels = labels_df.sum(axis=1)
         total_labels = labels_df.shape[0]
+        total_patterns = labels_df.shape[1]
         label_cardinality = 0
         for label in sum_labels:
             label_cardinality += label / total_labels
-        label_density = label_cardinality / total_labels
+        label_density = label_cardinality / total_patterns
         print("Label cardinality in {}: {}".format(study, label_cardinality))
         print("Label density in {}: {}".format(study, label_density))
         return label_cardinality, label_density

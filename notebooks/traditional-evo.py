@@ -10,7 +10,7 @@
 # 
 # ### Referencias:
 # 
-# Zhang, M. L., Li, Y. K., Liu, X. Y., & Geng, X. (2018). Binary relevance for multi-label learning: an overview. Frontiers of Computer Science, 12(2), 191–202.
+# Zhang, M. L., Li, Y. K., Liu, X. Y., & Geng, X. (2018). Binary relevance for multi-label learning: an overview. Frontiersj of Computer Science, 12(2), 191–202.
 # https://doi.org/10.1007/s11704-017-7031-7
 # 
 # Kariuki C. Multi-Label Classification with Scikit-MultiLearn. 
@@ -34,9 +34,9 @@ import os
 
 
 DSFLAGS = [#[],
-           #['blur'],
+           ['blur'],
            #['blur', 'rain', 'ref', 'rot', 'crop', 'elastic'],
-           #['blur', 'rain', 'ref', 'rot', 'crop', 'elastic', 'randaug'],
+           ['blur', 'rain', 'ref', 'rot', 'crop', 'elastic', 'randaug'],
            #['blur', 'rain', 'ref', 'rot', 'elastic'],
            #['crop'],
            #['elastic'],
@@ -44,20 +44,20 @@ DSFLAGS = [#[],
            #['mtnblur'],
            #['rain'],
            #['rain', 'ref', 'rot'],
-           ['rain', 'ref', 'rot', 'elastic'],
+           #['rain', 'ref', 'rot', 'elastic'],
            #['randaug'],
            #['ref'],
            #['ref', 'rot'],
            #['rot']
            ]
-USERN50 = [True]
-NUMLABELS = [5, 14, 26, 34, 54, 63, 72, 82, 91]
+USERN50 = [False]
+NUMLABELS = [5, 14, 26, 34, 54, 63, 72, 82, 91, 107, 131, 169, 281]
 for USE_RN50 in USERN50:
     for DS_FLAGS in DSFLAGS:
         for NUM_LABELS in NUMLABELS:
             SUBCHAPTERS = False
             ARCHITECTURE = 'resnet'
-            OUT_FOLDER = 'resnet50evo' if USE_RN50 else 'resnet18evo'
+            OUT_FOLDER = 'resnet50_evo' if USE_RN50 else 'resnet18_evo'
             CROP_TIMES = 1
             RANDOM_TIMES = 1
             ELASTIC_TIMES = 1
@@ -242,9 +242,9 @@ for USE_RN50 in USERN50:
             #                  "CC": ClassifierChain, "RakelD": RakelD}
             TRANSF_METHODS = {"CC": ClassifierChain}
             #mlknn = MLkNN(k=1, s=1)
-            #mltsvm = MLTSVM(c_k=4)
+            mltsvm = MLTSVM(c_k=4)
             #brknna = BRkNNaClassifier(k=1)
-            #ADAPT_METHODS = {"BRkNN": brknna, "MLkNN": mlknn, "MLTSVM": mltsvm}
+            ADAPT_METHODS = {"MLTSVM": mltsvm} # "BRkNN": brknna, "MLkNN": mlknn,
             BASE_CLASSIFIERS = {"LR": LogisticRegression(solver='lbfgs')}
             #BASE_CLASSIFIERS = {"LR": LogisticRegression(solver='lbfgs'), "SVC": svm.SVC(),
             #                    "DT": tree.DecisionTreeClassifier(), "GNB": GaussianNB()}
